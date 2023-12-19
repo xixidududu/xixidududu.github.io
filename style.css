@@ -1,0 +1,38 @@
+.centered{
+    text-align: center;
+    font-size: 77px;
+}
+
+.large{
+    font-size: 77px;
+}
+
+.medium{
+    font-size: medium;
+}
+
+.small{
+    font-size: small;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  display: flex;
+}
+
+img {
+  height: 300px; /* Adjust the height as needed */
+}
