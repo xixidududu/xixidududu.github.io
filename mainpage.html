@@ -15,8 +15,20 @@
     }
 
     /* 添加其他样式规则以确保适配手机屏幕 */
+    img {
+      width: 90vw; /* 设置图片宽度为视口宽度的 90% */
+      max-width: 100%; /* 确保图片不会比其原始尺寸更大 */
+      height: auto; /* 保持图片宽高比 */
+    }
+    
+    @media (min-width: 768px) {
+      /* 在电脑视图（宽度大于等于 768px）时，固定图片宽度为 300px */
+      img {
+          width: 300px;
+      }
+    }
   </style>
-  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
