@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <title>
+            宝宝巴士嘟嘟嘟
+        </title>
+    </head>
+    <!--This is the way to annotate.-->
+
+
+    <body style="background-color: lightgray;">
+        <header class = "centered">
+            Welcom to Boris and Zixi's world.
+        </header>
+
+        <div class="image-container">
+            <figure>
+                <img src="uame.jpg" alt="zixi chose">
+                <figcaption>passer-by be like: wow, you guys are soo sweet.</figcaption>
+                <img src="us.jpg" alt="boris chose">
+                <figcaption>passer-by be like: yeah, it is true!</figcaption>
+            </figure>
+        </div>
+        
+        <p>
+            不管风吹浪打，胜似闲庭信步。
+        </p>
+
+        <table border="1" class = "row">
+            <tr>
+                <th>Day x</th>
+                <th>宝宝</th>
+                <th>老公</th>
+                <!-- Add more column headers as needed -->
+            </tr>
+
+            <script>
+                // Sample data (replace this with your actual data)
+                var data = [
+                    ["Day 1", "今天考了一张99分的政治", "学习了黑客的第一章节"],
+                    ["Day 2", "this is the new edit", "看看我最新的改变"],
+                    // Add more rows of data as needed
+                ];
+
+                // Loop through the data to generate table rows
+                for (var i = 0; i < data.length; i++) {
+                    document.write("<tr>");
+
+                    for (var j = 0; j < data[i].length; j++) {
+                        document.write("<td>" + data[i][j] + "</td>");
+                    }
+
+                    document.write("</tr>");
+                }
+            </script>
+        </table>
+
+        <!-- style="text-align: center; font-size:large;" -->
+
+        <!--
+        <form action="https://www.baidu.com/?q=" method="get">
+            <input autocomplete="off" autofocus name="q" placeholder="QUERY" type="search">
+            <input type="submit" value="BAIDU Search">
+        </form>
+        -->
+
+        <!--This bolck is to show the search bar.-->
+
+        <!--
+        <div style="display:flex; justify-content:center;">
+            <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="border" data-video="" src="https://video.cs50.io/alnzFK-4xMY?screen=a0wLQX-Euas" scrolling="no" id="iFrameResizer0" style="overflow: hidden; width: 777px; height:555px;align:center"></iframe>
+        </div>
+        -->
+
+        <!--This block is to show the video.-->
+
+    </body>
+</html>
