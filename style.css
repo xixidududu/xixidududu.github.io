@@ -24,5 +24,7 @@
 
 
 img {
-  height: 300px; /* Adjust the height as needed */
+    width: 90vw; /* 设置图片宽度为视口宽度的 90% */
+    max-width: 100%; /* 确保图片不会比其原始尺寸更大 */
+    height: auto; /* 保持图片宽高比 */
 }
