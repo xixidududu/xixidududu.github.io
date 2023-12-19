@@ -13,11 +13,13 @@ body {
     align-items: center;
     min-height: 100vh;
     background: url('hk.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
     width: 420px;
-    background: purple;
+    background: transparent;
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
